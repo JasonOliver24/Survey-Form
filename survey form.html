@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <img src="https://www.vietnamairlines.com/~/media/ContentImage/Buy-tickets-and-other-products/Vanchuyen_Thucung.jpg" class="center" alt="Dog and cat in grass" width="500" height="200">
+    <title>Pet Foster Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+       <h1 id="title">Foster Pet Survey Form</h1>
+       <p id="description">Thank you for helping animals in need!</p>
+    <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Enter Your Name: <input id="name" name="name" type="text" placeholder="e.g. james brown" required </label>
+      <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="e.g. jamesbrown@yahoo.com" required />
+      <label id="phone-label" for="phone">Enter Your Phone Number: <input id="phone" name="phone
+<input type="tel" id="phone" name="phone" placeholder="888-888-8888" />
+      <label id="number-label" for="number">Enter Your Age (years) <input id="number" name="number" type="number" min="13" max="150" placeholder="e.g. 120 yo" /></label>
+      </fieldset>
+      <fieldset>
+        <legend>I/We live in a:</legend>
+        <label for="single-family-home"><input id="single-family-home" type="radio" value="radio" name="I/we-live" class="inline" checked /> Single family home</label>
+        <label for="apartment"><input id="apartment" type="radio" value="radio" name="I/we-live" class="inline" /> Apartment</label>
+        <label for="trailer"><input id="trailer" type="radio" value="radio" name="I/we-live" class="inline" /> Trailer</label>
+        <label for="condo-townhome"><input id="condo-townhome" type="radio" value="radio" name="I/we-live" class="inline" /> Condo/Townhome</label>
+        <label
+for="other"><input id="other" type="radio" value="radio" name="I/we-live" class="inline" /> Other</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have another pet?</legend>
+        <label for="pet"><input id="pet" type="radio" value="radio" name="another-pet" class="inline" checked /> Yes</label>
+        <label for="no-pet"><input id="no-pet" type="radio" value="radio" name="another-pet" class="inline" /> No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have a fenced-in yard?</legend>
+        <label for="yard"><input id="yard" type="radio" value="radio" name="fenced-in-yard" class="inline" checked /> Yes</label>
+        <label for="no-yard"><input id="no-yard" type="radio" value="radio" name="fenced-in-yard" class="inline" /> No</label>
+      </fieldset>
+      <fieldset>
+         <label for="dropdown">How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Google search</option>
+            <option value="2">Instagram</option>
+            <option value="3">Youtube</option>
+            <option value="4">Craigslist</option>
+            <option value="5">Word of mouth</option>
+            <option value="6">Other</option>
+          </select>
+          <label for="discipline">Please describe how you discipline your pets and why:
+          <textarea id="discipline" name="discipline" rows="4" cols="33" placeholder="e.g. I use positive reinforcement..."></textarea>
+        </label>
+        </fieldset>
+<label for="confirm">
+        <input class="inline" id="confirm" value="confirm" type="checkbox" required name="confirm" /> I confirm the information supplied above is correct and accurate
+      </label>
+<label for="compassionate">
+        <input class="inline" id="compassionate" value="compassionate" type="checkbox" required name="compassionate" /> I have read and agree with the values of compassionate animal care
+      </label>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </body>
+    </html>
